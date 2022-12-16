@@ -10,11 +10,7 @@ body {
    font-family: "Montserrat", sans-serif;
    max-width: 768px;
    background: #eee;
-   display: grid;
-   grid-template-rows: repeat(1, 1fr);
    margin: auto;
-
-
 }
 
 .taskHeader {
@@ -39,16 +35,13 @@ body {
    display: flex;
    flex-wrap: wrap;
    justify-content: space-around;
-   
+
 }
 
 .addNewTask__create {
    display: flex;
    margin: 5px;
    flex-grow: 1;
-   
-
-
 }
 
 .addNewTask__button {
@@ -56,23 +49,36 @@ body {
    background-color: teal;
    padding: 5px;
    margin: 5px;
-   border: 2px solid teal;
-   
-  
-
-
+   border: teal;
 }
-
 
 .tasksList {
    font-size: 20px;
    background: white;
    padding: 15px;
-   margin: 5px 0px 0px
+   margin: 5px 0px 0px 0px
 }
 
 .tasksList__toDo {
    background: white;
-   padding: 15px;
    margin: 2px 0px;
+   
+}
+
+.tasksList__toDo--next {
+   padding: 15px;
+   list-style-type: none;
+   display: grid;
+   grid-template-columns: auto 1fr auto;
+   grid-gap: 20px;
+}
+
+.js-done {
+   background: #1fbf1f;
+   border: #1fbf1f;
+}
+
+.js-remove {
+   background: #eb3e3e;
+   border: #eb3e3e;
 }
