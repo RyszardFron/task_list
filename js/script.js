@@ -1,22 +1,28 @@
 {
-
   const tasks = [
     {
-      content: "test1",
+      content: "przykładowe zadanie do pracy domowej",
       done: false,
     },
     {
-      content: "test2",
+      content: "testowe zadanie do pracy domowej",
       done: true,
     },
   ];
+
 
   const addNewTask = (newTaskContent) => {
     tasks.push({
       content: newTaskContent,
     });
 
+    clearInput();
     render();
+  };
+
+  const clearInput = () => {
+    document.querySelector(".js-newTask").value = "";
+    document.querySelector(".js-newTask").focus();
   };
 
   const removeTask = (taskIndex) => {
@@ -52,10 +58,9 @@
 
     for (const task of tasks) {
       htmlString += `
-    <li class="tasksList__toDo--next"
-      ${task.done ? "style=\"text-decoration: line-through\"" : ""}>
-      <button class="js-done">✔</button>
-      ${task.content} 
+    <li class="tasksList__item--next">
+      <button class="js-done">${task.done ? "✔" : ""}</button>
+      <span class="taskList__items--tekst ${task.done ? "taskList__item--done" : ""}">${task.content}</span> 
       <button class="js-remove">🗑</button>
     </li>
     `;
