@@ -52,6 +52,10 @@ body {
    border: teal;
 }
 
+.addNewTask__button:hover {
+   background: #00a7a7;
+}
+
 .tasksList {
    font-size: 20px;
    background: white;
@@ -59,15 +63,17 @@ body {
    margin: 5px 0px 0px 0px
 }
 
-.tasksList__toDo {
+.tasksList__items {
    background: white;
    margin: 2px 0px;
+   padding-left: 0;
    
 }
 
-.tasksList__toDo--next {
+.tasksList__items--next {
    padding: 15px;
-   list-style-type: none;
+   list-style: none;
+   border-bottom: 1px solid #eee;
    display: grid;
    grid-template-columns: auto 1fr auto;
    grid-gap: 20px;
@@ -75,10 +81,18 @@ body {
 
 .js-done {
    background: #1fbf1f;
-   border: #1fbf1f;
+   border: none;
+}
+
+.js-done:hover {
+   background: #25dc25
 }
 
 .js-remove {
    background: #eb3e3e;
-   border: #eb3e3e;
+   border: none;
+}
+
+.js-remove:hover {
+   background: #e45858
 }
