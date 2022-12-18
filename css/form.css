@@ -1,0 +1,16 @@
+
+
+ 
+ .addNewTask__form {
+    background: #fff;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+ 
+ .addNewTask__create {
+    margin: 5px;
+    flex-grow: 1;
+ }
+ 

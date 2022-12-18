@@ -20,28 +20,17 @@ body {
 .addNewTask {
    font-size: 20px;
    font-weight: bold;
-   background: white;
+   background: #fff;
    padding: 15px;
    margin: 2px 0;
    display: flex;
-   align-items: center;
-}
-
-.addNewTask__form {
-   background: white;
-   padding: 15px;
-   display: flex;
    flex-wrap: wrap;
-   justify-content: space-around;
-}
-
-.addNewTask__create {
-   margin: 5px;
-   flex-grow: 1;
+   text-align: center;
+   
 }
 
 .addNewTask__button {
-   color: white;
+   color: #fff;
    background-color: teal;
    padding: 5px;
    margin: 5px;
@@ -51,54 +40,4 @@ body {
 
 .addNewTask__button:hover {
    background: #00a7a7;
-}
-
-.tasksList {
-   font-size: 20px;
-   background: white;
-   padding: 15px;
-   margin: 5px 0px 0px 0px
-}
-
-.tasksList__item {
-   background: white;
-   margin: 2px 0px;
-   padding-left: 0;
-}
-
-.tasksList__item--next {
-   padding: 15px;
-   list-style: none;
-   border-bottom: 1px solid #eee;
-   display: grid;
-   grid-template-columns: auto 1fr auto;
-   grid-gap: 20px;
-   align-items: center;
-}
-
-.taskList__item--done {
-   text-decoration: line-through;
-}
-
-.js-done {
-   background: #1fbf1f;
-   color: white;
-   border: none;
-   width: 25px;
-   height: 25px;
-}
-
-.js-done:hover {
-   background: #25dc25
-}
-
-.js-remove {
-   background: #eb3e3e;
-   border: none;
-   width: 25px;
-   height: 25px;
-}
-
-.js-remove:hover {
-   background: #e45858
-}
+},
