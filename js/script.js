@@ -1,11 +1,11 @@
 {
   const tasks = [
     {
-      content: "przykładowe zadanie do pracy domowej",
+      content: "przykładowe zadanie do wykonania",
       done: false,
     },
     {
-      content: "testowe zadanie do pracy domowej",
+      content: "testowe zadanie do wykoania",
       done: true,
     },
   ];
