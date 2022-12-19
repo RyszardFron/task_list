@@ -14,6 +14,8 @@ Project is created with:
 * BEM
 * JavaScript
 * ECMAScript
+* Flex
+* Grid
 	
 ## Screenshots
 ![Task_List.gif](../task_list/images/Task_List.gif)
