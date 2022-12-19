@@ -16,10 +16,10 @@ Project is created with:
 * ECMAScript
 	
 ## Screenshots
-![currency calculator.gif](../.gif)
+![Task_List.gif](../task_list/images/Task_List.gif)
 
 ## Setup
 The project launched in a web browser. The project is subject to systematic expansion. It has some interesting functionalities.
 
 ## Link
-
+https://ryszardfron.github.io/task_list/
