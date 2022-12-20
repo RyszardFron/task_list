@@ -18,7 +18,7 @@ Project is created with:
 * Grid
 	
 ## Screenshots
-![Task_List.gif](../task_list/images/Task_List.gif)
+![Demonstration](../task_list/images/Task_List.gif)
 
 ## Setup
 The project launched in a web browser. The project is subject to systematic expansion. It has some interesting functionalities.
