@@ -1,7 +1,7 @@
 ﻿## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Screenshots](#screenshots)
+* [Demonstration](#screenshots)
 * [Setup](#setup)
 
 ## General info
@@ -17,8 +17,8 @@ Project is created with:
 * Flex
 * Grid
 	
-## Screenshots
-![Demonstration](../task_list/images/Task_List.gif)
+## Demonstration
+![Task_List.gif](https://github.com/RyszardFron/task_list/blob/main/images/Task_List.gif)
 
 ## Setup
 The project launched in a web browser. The project is subject to systematic expansion. It has some interesting functionalities.
