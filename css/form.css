@@ -1,16 +1,28 @@
+.addNewTask__form {
+   display: grid;
+   grid-template-columns: 1fr auto;
+   grid-gap: 20px;
+}
 
+@media (max-width: 767px) {
+   .addNewTask__form {
+      grid-template-columns: 1fr;
+   }
+}
 
- 
- .addNewTask__form {
-    background: #fff;
-    padding: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
- }
- 
- .addNewTask__create {
-    margin: 5px;
-    flex-grow: 1;
- }
- 
+.addNewTask__create {
+   padding: 10px;
+   border: 1px solid #ddd;
+}
+
+.addNewTask__button {
+   color:#fff;
+   background-color: #008080;
+   padding: 10px;
+   margin: 5px;
+   border: none;
+}
+
+.addNewTask__button:hover {
+   background: #00a7a7;
+}

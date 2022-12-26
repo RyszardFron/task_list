@@ -6,38 +6,28 @@ html {
    box-sizing: inherit;
 }
 
-body {
+.body {
    font-family: "Montserrat", sans-serif;
-   max-width: 768px;
+   max-width: 900px;
    background: #eee;
-   margin: auto;
+   margin: 0 auto;
+   padding: 20px;
 }
 
-.taskHeader {
-   font-weight: bold;
-}
-
-.addNewTask {
-   font-size: 20px;
-   font-weight: bold;
+.section {
+   margin: 10px 0;
    background: #fff;
-   padding: 15px;
-   margin: 2px 0;
-   display: flex;
-   flex-wrap: wrap;
-   text-align: center;
-   
+
+}
+ 
+.section__header {
+   font-size: 20px;
+   padding: 20px;
+   margin: 0;
+   border-bottom: 1px solid #ddd;
+
 }
 
-.addNewTask__button {
-   color: #fff;
-   background-color: teal;
-   padding: 5px;
-   margin: 5px;
-   border: none;
-   justify-content: center;
+.section__body {
+   padding: 20px;
 }
-
-.addNewTask__button:hover {
-   background: #00a7a7;
-},
