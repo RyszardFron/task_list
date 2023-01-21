@@ -4,11 +4,6 @@
    grid-gap: 20px;
 }
 
-@media (max-width: 767px) {
-   .addNewTask__form {
-      grid-template-columns: 1fr;
-   }
-}
 
 .addNewTask__create {
    padding: 10px;
@@ -16,10 +11,8 @@
 }
 
 .addNewTask__button {
-   color:#fff;
+   color: #fff;
    background-color: #008080;
-   padding: 10px;
-   margin: 5px;
    border: none;
 }
 
