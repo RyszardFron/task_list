@@ -27,7 +27,7 @@
   </header>
   <section class="section">
     <h2 class="section__header">Dodaj nowe zadanie</h2>
-    <div class="section__body">
+    <div class="section__addTask">
       <form class="addNewTask__form js-form">
         <input class="addNewTask__create js-newTask" placeholder="Co jest do zrobienia?" autofocus>
         <button class="addNewTask__button js-button">Dodaj zadanie</button>
@@ -35,8 +35,14 @@
     </div>
   </section>
   <section class="section">
-    <h2 class="section__header">Lista zadań</h2>
-    <div class="section__body">      
+    <div class="section__listTasks">
+      <h2 class="section__headerListTasks">Lista zadań</h2>
+      <div class="sections__buttons js-buttons">
+        <button class="buttons">pokaż/ukryj ukończone</button>
+        <button class="buttons">ukończ wszystkie</button>
+      </div>
+    </div>
+    <div class="section__addTask">
       <ul class="tasksList js-tasks"></ul>
     </div>
   </section>
