@@ -17,17 +17,40 @@ html {
 .section {
    margin: 10px 0;
    background: #fff;
-
 }
- 
+
 .section__header {
    font-size: 20px;
    padding: 20px;
    margin: 0;
    border-bottom: 1px solid #ddd;
-
 }
 
-.section__body {
+
+.section__listTasks {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   border-bottom: 1px solid #ddd;
+}
+
+.section__headerListTasks {
+   font-size: 20px;
+   padding: 20px;
+   margin: 0;
+}
+
+.sections__buttons {
+   display: flex;
+   align-items: center;
+   padding: 0 20px;
+}
+   
+ .buttons {  
+   background:none;
+   border: none;
+}
+
+.section__addTask {
    padding: 20px;
 }
