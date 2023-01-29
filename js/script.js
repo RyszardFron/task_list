@@ -74,16 +74,12 @@
   };
 
 
-  //aby nie pokazywały sie zadania należy dodać do tego htmla klase np. taskItemHide i w ccs poprzez display none ukryć te przyciski. ukryć za pomoca css-a. 
-
-
-
   const renderTasks = () => {
     let htmlString = "";
 
     for (const task of tasks) {
       htmlString += `
-    <li class="tasksList__item">
+    <li class="tasksList__item task__item--hide">
       <button class="js-done">
       ${task.done ? "✔" : ""}
       </button>
@@ -100,17 +96,13 @@
   };
 
 
-  //Podobnie jak renderTasks ma zrobić jakiegoś htmla na podstawie danych tj. tasks i hideDoneTasks. po klinieciu w przycisk albo modyfikujemy zadania albo hideDoneTasks. i po tym render w celu wytworzenia nowego widoku.
-
-  //wyłączony przycisk powinien mieć atrybut disable (nie dodajemy klasy). jeżeli chcemy stylować przycisk to stylujemy go po pseudoklasie disable która to umożliwia. nie przełaczamy pola disable tylko w funkcji która renderuj albo dodamy  atrybut disable albo nie dodamy w zależności od jakiegoś warunku.
-
   const renderButtons = () => {
     let htmlString = "";
 
     if (tasks.length > 0) {
       htmlString += `
       <button class = "buttons js-hideDoneTasks"> ${hideDoneTasks ? "Ukryj" : "Pokaż"} ukończone </button>
-      <button class = "buttons "> Ukończ wszystkie </button>
+      <button class = "buttons js-doneAllButtons"> Ukończ wszystkie </button>
       `
     };
 
@@ -118,17 +110,10 @@
   };
 
 
-
-
-  // renderowanie tych dwóch przycisków np. ukończ zadania, ale moze go nie być, czasem jest a czasem nie ma. jak lista zadań jest pusta to przyciski się nie wyrenderują, czyli stosujemy "if". jak go się złapie to trzeba sprawdzić czy się go dostało, jeśli tak to trzeba przypiąc evenetLisener, jesli nie to nie bo inaczej będzie błąd. przyciśniecie na przycisk ma przełączać hideDoneTasks. 
-  // zdarzenia na przyciskach lisenery do przycisków
   const bindButtonsEvents = () => {
-    if (hideDoneTasks) {
-
-    }
+   
+    // hideDoneTasks
   };
-
-
 
 
   const render = () => {
