@@ -18,7 +18,7 @@ Project is created with:
 * Grid
 	
 ## Demonstration
-![Task_List.gif](https://github.com/RyszardFron/task_list/blob/main/images/Task_List.gif)
+![Task_List.gif](https://github.com/RyszardFron/task_list/blob/main/images/task_list.gif)
 
 ## Setup
 The project launched in a web browser. The project is subject to systematic expansion. It has some interesting functionalities.
