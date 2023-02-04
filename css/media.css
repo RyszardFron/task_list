@@ -1,9 +1,13 @@
 @media (max-width: 767px) {
-    .addNewTask__form {
-       grid-template-columns: 1fr;
-    }    
-        
-    .addNewTask__button {
+   .addNewTask__form {
+      grid-template-columns: 1fr;
+   }
+
+   .addNewTask__button {
       padding: 10px;
-    }
- }
+   }
+
+   .section__listTasks {
+      flex-direction: column;
+   }
+}
