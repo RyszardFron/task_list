@@ -9,29 +9,28 @@ html {
 .body {
    font-family: "Montserrat", sans-serif;
    max-width: 900px;
-   background: #eee;
+   background: hsl(0, 0%, 93%);
    margin: 0 auto;
    padding: 20px;
 }
 
 .section {
    margin: 10px 0;
-   background: #fff;
+   background: hsl(0, 0%, 100%);
 }
 
 .section__header {
    font-size: 20px;
    padding: 20px;
    margin: 0;
-   border-bottom: 1px solid #ddd;
+   border-bottom: 1px solid hsl(0, 0%, 87%);
 }
-
 
 .section__listTasks {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   border-bottom: 1px solid #ddd;
+   border-bottom: 1px solid hsl(0, 0%, 87%);
 }
 
 .section__headerListTasks {
@@ -44,11 +43,21 @@ html {
    display: flex;
    align-items: center;
    padding: 0 20px;
+   color: hsl(180, 100%, 25%);
 }
-   
- .buttons {  
-   background:none;
+
+.buttons {
+   color: hsl(180, 100%, 25%);
+   background: none;
    border: none;
+}
+
+.buttons:hover {
+   color: hsl(180, 100%, 25%);
+}
+
+.buttons:disabled {
+   color: hsl(0, 5%, 75%);
 }
 
 .section__addTask {

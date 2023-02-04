@@ -7,15 +7,15 @@
 
 .addNewTask__create {
    padding: 10px;
-   border: 1px solid #ddd;
+   border: 1px solid hsl(0, 0%, 87%);
 }
 
 .addNewTask__button {
-   color: #fff;
-   background-color: #008080;
+   color: hsl(0, 0%, 100%);
+   background-color: hsl(180, 100%, 25%);
    border: none;
 }
 
 .addNewTask__button:hover {
-   background: #00a7a7;
+   background: hsl(180, 100%, 35%);
 }

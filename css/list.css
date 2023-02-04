@@ -10,7 +10,7 @@
    grid-gap: 10px;
    align-items: center;
    padding: 10px;
-   border-bottom: 1px solid #ddd;
+   border-bottom: 1px solid hsl(0, 0%, 87%);
 }
 
 .taskList__item--done {
@@ -22,25 +22,25 @@
 }
 
 .js-done {
-   background: #1fbf1f;
-   color: #fff;
+   background: hsl(120, 72%, 44%);
+   color: hsl(0, 0%, 100%);
    border: none;
    width: 25px;
    height: 25px;
 }
 
 .js-done:hover {
-   background: #25dc25
+   background: hsl(120, 72%, 50%)
 }
 
 .js-remove {
-   background: #eb3e3e;
-   color: #fff;
+   background: hsl(0, 81%, 58%);
+   color: hsl(0, 0%, 100%);
    border: none;
    width: 25px;
    height: 25px;
 }
 
 .js-remove:hover {
-   background: #e45858
+   background: hsl(0, 72%, 62%)
 }
