@@ -27,6 +27,7 @@
    border: none;
    width: 25px;
    height: 25px;
+   transition: 0.5s;
 }
 
 .js-done:hover {
@@ -39,8 +40,9 @@
    border: none;
    width: 25px;
    height: 25px;
+   transition: 0.5s;
 }
 
 .js-remove:hover {
-   background: hsl(0, 72%, 62%)
+   background: hsl(0, 72%, 68%)
 }

@@ -50,10 +50,11 @@ html {
    color: hsl(180, 100%, 25%);
    background: none;
    border: none;
+   transition: 0.5s;
 }
 
 .buttons:hover {
-   color: hsl(180, 100%, 25%);
+   color: hsl(180, 100%, 40%);
 }
 
 .buttons:disabled {

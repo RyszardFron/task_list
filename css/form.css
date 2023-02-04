@@ -14,8 +14,12 @@
    color: hsl(0, 0%, 100%);
    background-color: hsl(180, 100%, 25%);
    border: none;
+   transition: 1s;
+  
 }
 
 .addNewTask__button:hover {
    background: hsl(180, 100%, 35%);
+    transform: scale(1.1);
+
 }
