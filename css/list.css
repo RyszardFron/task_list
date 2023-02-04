@@ -17,6 +17,10 @@
    text-decoration: line-through;
 }
 
+.task__item--hide {
+   display: none;
+}
+
 .js-done {
    background: #1fbf1f;
    color: #fff;
