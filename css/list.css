@@ -28,6 +28,7 @@
    width: 25px;
    height: 25px;
    transition: 0.5s;
+   cursor: pointer;
 }
 
 .js-done:hover {
@@ -41,8 +42,10 @@
    width: 25px;
    height: 25px;
    transition: 0.5s;
+   cursor: pointer;
 }
 
 .js-remove:hover {
-   background: hsl(0, 72%, 68%)
+   background: hsl(0, 72%, 68%);
+   
 }
