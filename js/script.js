@@ -9,6 +9,12 @@
   };
 
 
+  const clearInput = () => {
+    document.querySelector(".js-newTask").value = "";
+    document.querySelector(".js-newTask").focus();
+  };
+
+
   const addNewTask = (newTaskContent) => {
     tasks = [
       ...tasks,
@@ -16,6 +22,7 @@
     ];
 
     render();
+    clearInput();
   };
 
 
@@ -27,6 +34,7 @@
 
     render();
   };
+
 
   const toggleTaskDone = (taskIndex) => {
     tasks = [
@@ -53,11 +61,6 @@
 
   const everyTaskDone = (tasks) => {
     return tasks.every(({ done }) => done);
-  }
-
-  const clearInput = () => {
-    document.querySelector(".js-newTask").value = "";
-    document.querySelector(".js-newTask").focus();
   };
 
 
@@ -140,11 +143,12 @@
   const render = () => {
     renderTasks();
     renderButtons();
-    clearInput();
+   
 
     bindEvents();
     bindButtonsEvents();
   };
+
 
   const onFormSubmit = (event) => {
     event.preventDefault();
@@ -158,6 +162,7 @@
     addNewTask(newTaskContent);
   };
 
+  
   const init = () => {
     render();
 
