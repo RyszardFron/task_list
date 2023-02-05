@@ -14,6 +14,11 @@ html {
    padding: 20px;
 }
 
+.taskList {
+   font-weight: bold;
+}
+
+
 .section {
    margin: 10px 0;
    background: hsl(0, 0%, 100%);
@@ -21,6 +26,7 @@ html {
 
 .section__header {
    font-size: 20px;
+   font-weight: bold;
    padding: 20px;
    margin: 0;
    border-bottom: 1px solid hsl(0, 0%, 87%);
@@ -35,6 +41,7 @@ html {
 
 .section__headerListTasks {
    font-size: 20px;
+   font-weight: bold;
    padding: 20px;
    margin: 0;
 }
