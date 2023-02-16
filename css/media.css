@@ -7,7 +7,22 @@
       padding: 10px;
    }
 
+   .section__headerListTasks {
+      display: grid;
+      justify-items: center;
+   }
+
    .section__listTasks {
-      flex-direction: column;
+      grid-template-columns: 1fr;
+   }
+
+   .section__buttons {
+      display: grid;
+      align-items: center;
+      padding: 20px;
+   }
+
+   .buttons {
+      padding: 20px;
    }
 }

@@ -14,10 +14,9 @@ html {
    padding: 20px;
 }
 
-.taskList {
+.taskTitle {
    font-weight: bold;
 }
-
 
 .section {
    margin: 10px 0;
@@ -33,9 +32,9 @@ html {
 }
 
 .section__listTasks {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   align-items: center;
    border-bottom: 1px solid hsl(0, 0%, 87%);
 }
 
@@ -46,10 +45,8 @@ html {
    margin: 0;
 }
 
-.sections__buttons {
-   display: flex;
-   align-items: center;
-   padding: 0 20px;
+.section__buttons {
+   padding: 0;
    color: hsl(180, 100%, 25%);
 }
 
