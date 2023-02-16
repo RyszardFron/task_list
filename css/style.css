@@ -48,6 +48,7 @@ html {
 .section__buttons {
    padding: 0;
    color: hsl(180, 100%, 25%);
+    text-align:center;
 }
 
 .buttons {
@@ -56,6 +57,7 @@ html {
    border: none;
    transition: 0.5s;
    cursor: pointer;
+  
 }
 
 .buttons:hover {
