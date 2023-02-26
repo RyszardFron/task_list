@@ -6,7 +6,7 @@ html {
    box-sizing: inherit;
 }
 
-.body {
+body {
    font-family: "Montserrat", sans-serif;
    max-width: 900px;
    background: hsl(0, 0%, 93%);
@@ -23,32 +23,22 @@ html {
    background: hsl(0, 0%, 100%);
 }
 
-.section__header {
-   font-size: 20px;
-   font-weight: bold;
+.section__title {
    padding: 20px;
    margin: 0;
    border-bottom: 1px solid hsl(0, 0%, 87%);
 }
 
-.section__listTasks {
+.section__header {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
    align-items: center;
    border-bottom: 1px solid hsl(0, 0%, 87%);
 }
 
-.section__headerListTasks {
-   font-size: 20px;
-   font-weight: bold;
-   padding: 20px;
-   margin: 0;
-}
-
 .section__buttons {
-   padding: 0;
    color: hsl(180, 100%, 25%);
-    text-align:center;
+   text-align: center;
 }
 
 .buttons {
@@ -57,7 +47,6 @@ html {
    border: none;
    transition: 0.5s;
    cursor: pointer;
-  
 }
 
 .buttons:hover {

@@ -17,18 +17,19 @@
   <link href="css/media.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
   <script defer src="js/script.js"></script>
 </head>
 
-<body class="body">
+<body>
+  <main></main>
   <header>
     <h1 class="taskTitle">Lista zadań</h1>
   </header>
   <section class="section">
-    <h2 class="section__header">Dodaj nowe zadanie</h2>
+    <header class="section__header">
+    <h2 class="section__title">Dodaj nowe zadanie</h2>
+    </header>
     <div class="section__addTask">
       <form class="addNewTask__form js-form">
         <input class="addNewTask__create js-newTask" placeholder="Co jest do zrobienia?" autofocus>
@@ -37,14 +38,15 @@
     </div>
   </section>
   <section class="section">
-    <div class="section__listTasks">
-      <h2 class="section__headerListTasks">Lista zadań</h2>
-      <ul class="section__buttons js-buttons"></ul>
-    </div>
+    <header class="section__header">
+      <h2 class="section__title">Lista zadań</h2>
+      <div class="section__buttons js-buttons"></div>
+    </header>
     <div class="section__addTask">
       <ul class="tasksList js-tasks"></ul>
     </div>
   </section>
+</main>
 </body>
 
 </html>
