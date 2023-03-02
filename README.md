@@ -1,7 +1,7 @@
 ﻿## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Demonstration](#screenshots)
+* [Demonstration](#demonstration)
 * [Setup](#setup)
 
 ## General info
@@ -18,7 +18,7 @@ Project is created with:
 * Grid
 	
 ## Demonstration
-![task_list.gif](https://github.com/RyszardFron/task_list/blob/main/images/task_list.gif)
+![task_list.gif](images/Task_List.gif)
 
 ## Setup
 The project launched in a web browser. The project is subject to systematic expansion. It has some interesting functionalities.
