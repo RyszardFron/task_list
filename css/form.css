@@ -13,6 +13,7 @@
 .addNewTask__button {
    color: hsl(0, 0%, 100%);
    background-color: hsl(180, 100%, 25%);
+   padding: 10px;
    border: none;
    transition: 1s;
    cursor: pointer;
