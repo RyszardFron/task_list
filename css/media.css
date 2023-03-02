@@ -3,26 +3,22 @@
       grid-template-columns: 1fr;
    }
 
-   .addNewTask__button {
-      padding: 10px;
+   .section__header {
+      display: grid;
+      grid-template-columns: 1fr;
    }
 
-   .section__headerListTasks {
+   .section__buttons {
       display: grid;
-      justify-items: center;
+      grid-template-columns: 1fr;
+   }
+
+   .buttons {
+      padding: 20px;
    }
 
    .section__listTasks {
       grid-template-columns: 1fr;
    }
 
-   .section__buttons {
-      display: grid;
-      align-items: center;
-     
-   }
-
-   .buttons {
-      padding: 20px;
-   }
 }
